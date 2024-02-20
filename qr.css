@@ -1,0 +1,51 @@
+.mybody{
+    background-color: black;
+}
+#mydiv{
+    background-color: white;
+    width: 700px;
+    height: 700px;
+    margin-left: 500px;
+    margin-top: 150px;
+    border-radius: 10px;
+}#h1{
+    margin-left: 100px;
+    margin-top: 00px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+    
+}
+#qrText{
+    font-size: 40px;
+    
+    margin-left: 100px;
+    padding-top: 10px;
+    
+}
+#mybtn{
+    font-size: 40px;
+    
+    margin-left: 200px;
+    padding-top: 10px;
+    margin-top: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 0px;
+}
+#imgBox{
+    width: 200px;
+    padding: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+
+}
+#imgBox.show-img{
+    max-height: 300px;
+    margin: 10px auto;
+    border: 1px solid #d1d1d1;
+}#imgBox img{
+    width: 100%;
+    padding: 10px;
+}
